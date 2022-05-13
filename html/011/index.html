@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir em dispositivos de telas diferentes ou mova o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="src/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="src/M.png" type="image/png">
+        <img src="src/G.png" alt="Imagem Flexível grande">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <audio src="src/die_for_you_va_cha.mp3" controls></audio>
+    <audio preload="metadata" controls> <!--pre load auto irá baixar o arquivo junto com a pagina, metadata apenas informações, e none só quando o usuario der play-->
+        <source src="src/die_for_you_va_cha.mp3" type="audio/mpeg">
+        <source src="src/die_for_you_va_cha.wav" type="audio/wav">
+        <source src="src/die_for_you_va_cha.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não suporta áudio, baixe o arquivo <a href="src/die_for_you_va_cha.mp3">aqui</a></p>
+        <!--se colocar outros sources com o tipo: audio/wav audio/ogg ele irá tentar carrega-los um por vez, e caso não seja possivel ele ira disponibilizar o download-->
+    </audio>
+    <h1>Vídeos</h1>
+    <p>Vídeo local</p>
+    <video width="720" poster="src/snk_capa.jpg" controls>
+        <source src="src/snk_yosemite.mp4" type="video/mp4">
+        <source src="src/snk_yosemite.mkv" type="video/mkv">
+        <source src="src/snk_yosemite.webm" type="video/webm">
+    </video>
+    <p>Vídeo Externo</p>
+    <iframe width="720" height="480" src="https://www.youtube.com/embed/V30U90fvDAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
