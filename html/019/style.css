@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Minercraftory';
+    src: url(Minercraftory.ttf) format('truetype');
+    font-weight: normal;
+}
+
+body{
+    background-image: linear-gradient(to bottom, cyan, darkcyan, rgb(0, 100, 100));
+    font-family: 'Minercraftory', sans-serif;
+    color: back;
+}
+
+main{
+    text-align: justify;
+    margin: auto;
+    width: 800px;
+    background-color: #ffffffad;
+    padding: 10em;
+    padding-top: 2em;
+}
+
+h1#principal{
+    color: darkcyan;
+    text-align: center;
+    background-color: aquamarine;
+}
+h1{
+    color: cornflowerblue;
+    text-align: left;
+}
+
+h2{
+    color: rgb(43, 28, 180);
+    text-align: center;
+}
+
+.basico{
+    background-color: rgb(82, 187, 82);
+}
+
+.intermediario{
+    background-color: rgb(216, 216, 85);
+}
+
+.avancado{
+    background-color: rgb(250, 142, 142);
+}
+
+/*classes e ids podem ser usadas juntas, mas o id deve ser usado em apenas um elemento, enquanto a classe em varios.
+Em caso de conflito, a prioridade é da declaração atribuida por ultimo.
+*/

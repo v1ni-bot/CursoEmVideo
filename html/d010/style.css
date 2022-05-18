@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+
+body{
+    background-color: #c5ebd6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3DDA84, #1a5c38);
+    color: white;
+}
+
+h1#titulo{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+p#subtitulo{
+    text-indent: 0em;
+    text-align: center;
+}
+
+nav{
+    background-color: #1a5c38;
+    padding: 10px 0px;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+main{
+    background-color: white;
+    color: black;
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+}
+
+p{
+    text-indent: 2em;
+    font-weight: 600;
+}
+
+strong{
+    color: #729A83;
+}
+
+a{
+    color: #729A83;
+    text-decoration: none;
+}
+p > a::after{
+    content: '🔗';
+}
+
+section#conteudo{
+    padding: 20px;
+}
+
+h1{
+    font-family: 'idroid', sans-serif;
+}
+
+h2{
+    background-image: linear-gradient(to right, #c5ebd6, white);
+}
+img{
+    justify-self: center;
+}
+
+
+section#video{
+    padding: 30px 40px;
+    background-color: #1a5c38;
+}
+section#extra{
+    padding: 30px;
+    padding-top: 0px;
+}
+section#extra > aside{
+    border-radius: 3%;
+    background-color: #c5ebd6;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+h4{
+    color: white;
+    background-color: #2fa866;
+    padding: 15px;
+}
+
+li > a{
+    color: black;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #1a5c38;
+    text-align: center;
+    color: #729A83;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+}
+footer > p > a::after{
+    content: none;
+}
