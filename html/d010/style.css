@@ -36,12 +36,14 @@ header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     color: white;
     text-align: center;
-    padding-top:  15px;
+    padding: 15px;
     
 }
 
 h1#titulo{
     font-family: var(--fonte-destaque);
+    color: white;
+    font-weight: normal;
 }
 
 p#subtitulo{
@@ -49,13 +51,14 @@ p#subtitulo{
 }
 
 nav{
-    background-color: #1a5c38;
+    background-color: var(--cor5);
     padding: 10px 0px;
+    text-align: center;
 }
 nav > a{
     color: var(--cor1);
     text-decoration: none;
-    margin-left: 20px;
+    margin: 0%;
     font-weight: 600;
     padding: 10px;
 }
@@ -122,17 +125,19 @@ img.bugdroid{
 
 
 section#video{
-    padding: 30px 40px;
-    background-color: #1a5c38;
+    padding: 20px;
+    background-color: var(--cor5);  
+    position: relative;
+    padding-bottom: 51%;
+    borderty;
 }
 
 iframe{
-    display: block;
-    margin: auto;
-    max-width: 720px;
-    min-width: 300px;
-    max-height: 405px;
-    min-height: 170px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 section#extra{
     padding: 30px;
@@ -170,6 +175,11 @@ footer{
     background-color: #1a5c38;
     text-align: center;
     color: #729A83;
+    margin: 0%;
+}
+footer p{
+    margin: 0%;
+    padding: 5px;
 }
 
 footer a{
