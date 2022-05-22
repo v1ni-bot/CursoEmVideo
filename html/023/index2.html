@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption{
+            background-color: lightgray;
+            padding: 8px;
+            font-weight: bold;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+        tbody>tr:nth-child(odd){
+            /* 2n -1 */
+            background-color: aqua;
+        }
+
+        tbody>tr:nth-child(even){
+            /* 2n */
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela Grande</h1>
+    <!--
+        caption = titulo, legenda
+        thead = cabeça
+        tbody = corpo
+        tfoot = pe
+    -->
+    <table>
+        <caption>População</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td><strong>210 147 125</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
