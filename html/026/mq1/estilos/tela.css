@@ -1,0 +1,35 @@
+@charset "UTF-8";
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+header{
+    background-color: aliceblue;
+}
+
+header > h1{
+    text-align: center;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: gray;
+}
+
+menu li {
+    background-color: darkgray;
+    display: inline-block;
+    padding: 10px;
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
